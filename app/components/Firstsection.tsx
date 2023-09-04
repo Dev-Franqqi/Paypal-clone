@@ -2,8 +2,8 @@ import "./Firstsect.css";
 
 export default function Firstsection() {
     return (
-      <section className={`text-center p-3 pb-5 text-white firstsec`}>
-        <h1 className="text-5xl font-thin mt-3 mb-2">
+      <section className={`text-center p-3 pb-5 font-light text-white firstsec`}>
+        <h1 className="text-5xl mt-3 mb-2">
           We&apos;ve got you covered
         </h1>
 

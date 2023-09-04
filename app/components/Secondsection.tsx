@@ -2,8 +2,8 @@ import Image from "next/image";
 import Individual from "../../public/images/1-individuals.jpg"
 export default function Secondsection() {
   return (
-    <section className="text-center p-3">
-      <h2 className="text-3xl font-normal">
+    <section className="text-center px-5 py-4">
+      <h2 className="text-3xl font-light">
         PayPal is for everyone who pays online
       </h2>
       <Image className="mx-auto mt-9" src={Individual} alt="" width={60} height={60} />

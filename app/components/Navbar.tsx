@@ -8,11 +8,11 @@ export default function Navbar() {
   return (
     <>
       <nav className="bg-white flex justify-between py-3 px-2">
-        <button className={`${commonButtonClass} w-3/6 flex items-center`}>
+        <button className={`${commonButtonClass} w-2/6 flex items-center`}>
           {" "}
           <CiMenuBurger /> <span className="mx-auto">Menu</span>
         </button>
-        <Image src={Logo} alt="logo" width={40} height={50} />
+        <Image className="relative right-1" src={Logo} alt="logo" width={40} height={50} />
 
         <button className={commonButtonClass}>Log In</button>
       </nav>
